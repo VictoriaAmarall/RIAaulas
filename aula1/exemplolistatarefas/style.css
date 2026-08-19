@@ -1,0 +1,126 @@
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+/* Título */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* Campo de texto */
+#nova-tarefa {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+#nova-tarefa:focus {
+    border-color: #3498db;
+}
+
+/* Botão adicionar */
+#btn-adicionar {
+    padding: 12px 18px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn-adicionar:hover {
+    background-color: #2980b9;
+}
+
+/* Contador */
+#contador {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Lista de tarefas */
+#lista-tarefas {
+    list-style: none;
+    padding: 0;
+    width: 450px;
+}
+
+/* Cada tarefa */
+#lista-tarefas li {
+    background-color: white;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botão remover */
+#lista-tarefas li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+#lista-tarefas li button:hover {
+    background-color: #c0392b;
+}
+
+/* Mensagem quando não existem tarefas */
+#estado-vazio {
+    width: 450px;
+    padding: 20px;
+
+    background-color: white;
+    border: 1px dashed #bbb;
+    border-radius: 6px;
+
+    text-align: center;
+    color: #888;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    #nova-tarefa {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #btn-adicionar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #lista-tarefas,
+    #estado-vazio {
+        width: 100%;
+    }
+}

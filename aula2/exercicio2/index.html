@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mensagem" class="aviso" style="display:none;">
+        Mensagem pode ser ocultada
+    </div>
+    <button id="toggle">Mostrar/Esconder</button>
+</body>
+<script>
+    const mensagem = document.getElementById('mensagem');
+    const btnalterar = document.getElementById('toggle');
+
+
+    btnalterar.addEventListener('click',()=>{
+        if(mensagem.style.display ==='none'){
+            mensagem.style.display ='block';
+        }else{
+            mensagem.style.display ='none';
+        }
+    })
+</script>
+</html>
