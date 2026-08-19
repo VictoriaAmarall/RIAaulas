@@ -23,5 +23,25 @@
             mensagem.style.display ='none';
         }
     })
+
+    /*Outra opção de resolução
+    const mensagem = document.getElementById('mensagem');
+    const btn = document.getElementById('toggle');
+
+    let visivel = false;
+
+    function alternarVisibilidade(){
+    visivel = !visivel;
+
+    if(visivel){
+    mensagem.style.display ='block';
+    btn.textContent= 'Esconder';
+    }else{
+    mensagem.style.display ='none';
+    btn.textContent= 'Mostrar';
+
+}}
+    btn.addEventListener('click', alternarVisibilidade);  
+    */
 </script>
 </html>
