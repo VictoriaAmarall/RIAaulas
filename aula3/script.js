@@ -1,8 +1,8 @@
 const butao = document.querySelector('#mostrarbtn');
 const noticias = document.querySelector('#noticias');
-
+const cont = document.querySelector('article').length;
+console.log(cont);
 butao.addEventListener('click',()=>{
-    document.noticias.classList.toggle("mostrarnoticias");
-
+    noticias.classList.toggle("mostrarnoticias");
 
 })
