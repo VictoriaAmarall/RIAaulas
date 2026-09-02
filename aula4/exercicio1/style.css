@@ -1,0 +1,103 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #d62828;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #d62828;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Imagem */
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;
+            width: 500px;
+            border-radius: 10px;
+        }
+
+        figcaption {
+            margin-top: 8px;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* Link */
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            color: white;
+            background-color: #d62828;
+            padding: 10px 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #a51d1d;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        /* Botão */
+        button {
+            background-color: #d62828;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #a51d1d;
+        }
+
+        .mudar{
+            border: 2px solid red;
+
+            
+        }
