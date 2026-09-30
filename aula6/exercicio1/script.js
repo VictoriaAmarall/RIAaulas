@@ -24,7 +24,6 @@ botao.addEventListener("click", function () {
         })
         .catch(erro => {
             loading.style.display = "none";
-            resultado.innerHTML = "Erro ao realizar a requisição. <br>";
-            ${erro.message};
+            resultado.innerHTML = `<p>Erro ao realizar a requisição. <br>${erro.message}</p>`;
         });
 });
